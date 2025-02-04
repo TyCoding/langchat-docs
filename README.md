@@ -82,35 +82,6 @@ Copyright (c) 2024-present, TyCoding.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=TyCoding/langchat&type=Date)](https://star-history.com/#TyCoding/langchat&Date)
 
-## 预览
-
-![](docs/imgs/MIK-jJfiee.png)
-
-![](docs/imgs/MIK-qQTgUW.png)
-
-![](docs/imgs/MIK-hkimZf.png)
-
-
-![](docs/imgs/MIK-Axv453.png)
-
-![](docs/imgs/MIK-B0EgMc.png)
-
-![](docs/imgs/MIK-aumvM8.png)
-
-![](docs/imgs/MIK-D8rxTi.png)
-
-![](docs/imgs/MIK-nXe2mr.png)
-
-![](docs/imgs/MIK-dwX7mz.png)
-
-![](docs/imgs/MIK-KGG50l.png)
-
-
-![](docs/imgs/MIK-qmfti3.png)
-
-![](docs/imgs/MIK-v4zoRt.png)
-
-
 ## 感谢
 
 - [LangChain4j](https://github.com/langchain4j/langchain4j)

@@ -20,7 +20,7 @@ export default defineConfig({
     nav: [
       { text: 'LangChat', link: '/' },
       { text: 'LangChat文档', link: '/langchat/docs/introduce',activeMatch: '/langchat/' },
-      { text: 'Java AI课程', link: '/course/docs/00introduce',activeMatch: '/course/' },
+      { text: 'Java AI课程', link: '/course/docs/00Introduce',activeMatch: '/course/' },
       {
         text: '在线预览',
         items: [

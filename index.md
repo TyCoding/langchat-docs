@@ -8,6 +8,9 @@ hero:
   tagline: 快速构建Java生态下企业级AIGC产品
   actions:
     - theme: brand
+      text: LangChat官网
+      link: https://langchat.cn
+    - theme: brand
       text: LangChat使用文档
       link: /langchat/docs/introduce
     - theme: alt

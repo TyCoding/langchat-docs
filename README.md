@@ -6,9 +6,8 @@ LangChat是Java生态下企业级AIGC项目解决方案，在RBAC权限体系的
 
 **支持的AI大模型：** Gitee AI / 阿里通义 / 百度千帆 / DeepSeek / 抖音豆包 / 智谱清言 / 零一万物 / 讯飞星火 / OpenAI / Gemini / Ollama / Azure / Claude 等大模型。
 
-[English](./README_en.md)
-
-- 网站文档：[http://langchat.cn/](http://langchat.cn/)
+- LangChat官网：[http://langchat.cn/](http://langchat.cn/)
+- LangChat文档：[http://langchat.cn/](http://langchat.cn/)
 - 后台地址：[http://backend.langchat.cn/](http://backend.langchat.cn/)
 - 前台地址：[http://front.langchat.cn/](http://front.langchat.cn/)
 
@@ -56,8 +55,6 @@ LangChat是Java生态下企业级AIGC项目解决方案，在RBAC权限体系的
 如果你有关于LangChat的开发问题或者二开定制等需求，或者想要深入交流Java生态AIGC产品开发、产品变现等，也可以请作者喝一杯咖啡加入我的LangChat交流群（可以一起交流LangChat后续开发规划）：
 
 添加微信：LangChainChat（备注：赞助）
-
-![](docs/imgs/MIK-3F1Xlb.png)
 
 ## 版权和协议
 

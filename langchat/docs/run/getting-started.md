@@ -75,7 +75,7 @@ pnpm install
 pnpm run dev
 ```
 
-启动后访问 [http://localhost:3003/](http://localhost:3003/) 跳转到后台系统登录页
+启动后访问 `http://localhost:3003/` 跳转到后台系统登录页
 
 ![](/langchat-ui.png)
 
@@ -92,6 +92,6 @@ pnpm install
 pnpm run dev
 ```
 
-启动后访问 [http://localhost:1002/](http://localhost:1002/) 跳转到客户端系统首页
+启动后访问 `http://localhost:1002/` 跳转到客户端系统首页
 
 ![](/env-client.png)

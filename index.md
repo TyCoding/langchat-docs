@@ -14,9 +14,6 @@ hero:
       text: LangChat使用文档
       link: /langchat/docs/introduce
     - theme: alt
-      text: LangChat Java AI课程
-      link: /course/docs/00Introduce
-    - theme: alt
       text: Github开源地址
       link: https://github.com/TyCoding/langchat
 

@@ -13,17 +13,22 @@ export default defineConfig({
   },
   head: [['link', { rel: 'shortcut icon', href: '/favicon.png' }]],
   themeConfig: {
+    outline: {
+      level: 'deep'
+    },
     search: {
       provider: 'local'
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'LangChat', link: '/' },
-      { text: 'LangChat文档', link: '/langchat/docs/introduce',activeMatch: '/langchat/' },
-      { text: 'Java AI课程', link: '/course/docs/00Introduce',activeMatch: '/course/' },
+      { text: 'LangChat文档', link: '/langchat/docs/langchat-deepseek-r1',activeMatch: '/langchat/' },
+      // { text: 'Java AI课程', link: '/course/docs/00Introduce',activeMatch: '/course/' },
       {
         text: '在线预览',
         items: [
+          { text: 'LangChat官网', link: 'https://langchat.cn/' },
+          { text: 'LangChat后台预览', link: 'http://backend.langchat.cn/' },
           { text: 'LangChat LLM Ops', link: 'http://llm.langchat.cn' },
           { text: 'LangChat UPMS Ops', link: 'http://upms.langchat.cn' }
         ]
@@ -64,39 +69,39 @@ export default defineConfig({
           ]
         }
       ],
-      '/course': [
-        {
-          text: 'LangChain4j基础',
-          items: [
-            { text: '开始之前', link: '/course/docs/00Introduce' },
-            { text: '模型选择', link: '/course/docs/01Models' },
-            { text: 'LangChain4j 介绍', link: '/course/docs/02LangChain4j' },
-            { text: 'Chat API 上手', link: '/course/docs/03ChatAPI' },
-            { text: 'API 进阶配置', link: '/course/docs/04ChatSetting' },
-            { text: 'Chat 流式输出', link: '/course/docs/05ChatStream' },
-            { text: 'Chat 视觉理解', link: '/course/docs/06ChatVL' },
-            { text: 'Chat 记忆缓存', link: '/course/docs/07ChatMemory' },
-            { text: '提示词工程', link: '/course/docs/08Prompt' },
-            { text: 'JSON 结构化输出', link: '/course/docs/09JSONOutput' },
-            { text: '业务动态 JSON 结构化', link: '/course/docs/10DynamicJSON' },
-            { text: '向量化及存储', link: '/course/docs/12Embedding' },
-            { text: '文本向量化分类', link: '/course/docs/13EmbeddingText' },
-            { text: '动态函数调用', link: '/course/docs/14DynamicFunctionCall' },
-          ]
-        },
-        {
-          text: 'RAG',
-          items: [
-            { text: 'RAG API 基础', link: '/course/docs/15RAGAPI' },
-            { text: 'RAG API 增强', link: '/course/docs/15RAGAPI2' },
-            { text: 'RAG Easy 快速上手', link: '/course/docs/16EasyRag' },
-            { text: 'RAG 结果重排', link: '/course/docs/17RAGRank' },
-            { text: '函数增强搜索', link: '/course/docs/18WebSearch' },
-            { text: '模型敏感词处理', link: '/course/docs/19SensitiveWord' },
-            { text: 'RAG 进阶分享', link: '/course/docs/20Rag' },
-          ]
-        }
-      ],
+      // '/course': [
+      //   {
+      //     text: 'LangChain4j基础',
+      //     items: [
+      //       { text: '开始之前', link: '/course/docs/00Introduce' },
+      //       { text: '模型选择', link: '/course/docs/01Models' },
+      //       { text: 'LangChain4j 介绍', link: '/course/docs/02LangChain4j' },
+      //       { text: 'Chat API 上手', link: '/course/docs/03ChatAPI' },
+      //       { text: 'API 进阶配置', link: '/course/docs/04ChatSetting' },
+      //       { text: 'Chat 流式输出', link: '/course/docs/05ChatStream' },
+      //       { text: 'Chat 视觉理解', link: '/course/docs/06ChatVL' },
+      //       { text: 'Chat 记忆缓存', link: '/course/docs/07ChatMemory' },
+      //       { text: '提示词工程', link: '/course/docs/08Prompt' },
+      //       { text: 'JSON 结构化输出', link: '/course/docs/09JSONOutput' },
+      //       { text: '业务动态 JSON 结构化', link: '/course/docs/10DynamicJSON' },
+      //       { text: '向量化及存储', link: '/course/docs/12Embedding' },
+      //       { text: '文本向量化分类', link: '/course/docs/13EmbeddingText' },
+      //       { text: '动态函数调用', link: '/course/docs/14DynamicFunctionCall' },
+      //     ]
+      //   },
+      //   {
+      //     text: 'RAG',
+      //     items: [
+      //       { text: 'RAG API 基础', link: '/course/docs/15RAGAPI' },
+      //       { text: 'RAG API 增强', link: '/course/docs/15RAGAPI2' },
+      //       { text: 'RAG Easy 快速上手', link: '/course/docs/16EasyRag' },
+      //       { text: 'RAG 结果重排', link: '/course/docs/17RAGRank' },
+      //       { text: '函数增强搜索', link: '/course/docs/18WebSearch' },
+      //       { text: '模型敏感词处理', link: '/course/docs/19SensitiveWord' },
+      //       { text: 'RAG 进阶分享', link: '/course/docs/20Rag' },
+      //     ]
+      //   }
+      // ],
     },
 
     socialLinks: [

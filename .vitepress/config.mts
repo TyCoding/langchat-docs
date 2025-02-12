@@ -32,11 +32,17 @@ export default defineConfig({
 
     sidebar: {
       '/langchat/': [
+        { text: 'LangChat实战DeepSeek-R1', link: '/langchat/docs/langchat-deepseek-r1' },
         {
           text: '写在前面',
           items: [
             { text: 'LangChat介绍', link: '/langchat/docs/introduce' },
             { text: 'RAG基础概念', link: '/langchat/docs/rag' },
+            { text: 'DeepSeek-R1微调指南', link: '/langchat/docs/deepseek-r1-tuning' },
+            { text: 'DeepSeek R1架构和训练过程图解', link: '/langchat/docs/deepseek-r1-architecture-and-training' },
+            { text: 'DeepSeek-R1蒸馏模型', link: '/langchat/docs/deepseek-r1-distilled-models' },
+            { text: 'DeepSeek-R1的推理能力分析', link: '/langchat/docs/deepseek-r1-reasoning-capabilities-analysis' },
+            { text: '蒸馏DeepSeek-R1到自己的模型', link: '/langchat/docs/distill-deepseek-r1-into-your-model' },
             { text: '常见问题', link: '/langchat/docs/questions' },
             { text: '更多文档', link: '/langchat/docs/show' },
           ]
